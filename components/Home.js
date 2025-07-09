@@ -63,16 +63,21 @@ function Home() {
 
   return (
     <div className={styles.main}>
+
       <div className={styles.header}>
+
         <div className={styles.logocontainer}>
           <img src="logo.png" alt="Logo" />
-          <img className={styles.logo} src="logoletter.png" alt="Letter logo" />
+          <p className={styles.logo}>MOVIE NEWS</p>
         </div>
+
         <Popover title="Liked movies" content={popoverContent} className={styles.popover} trigger="click">
           <Button>♥ {likedMovies.length} movie(s)</Button>
         </Popover>
       </div>
-      <div className={styles.title}>LAST RELEASES</div>
+
+
+      <div className={styles.title}>TRENDING THIS WEEK</div>
       <div className={styles.moviesContainer}>
         {movies}
       </div>
