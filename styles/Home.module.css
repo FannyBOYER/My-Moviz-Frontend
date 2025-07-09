@@ -21,9 +21,15 @@
 	font-weight: 600;
 }
 
+.logocontainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .logo {
 	margin-left: 20px;
-	font-size: 20px;;
+	width: 150px;
 }
 
 .moviesContainer {

@@ -68,7 +68,7 @@ function Home() {
 
         <div className={styles.logocontainer}>
           <img src="logo.png" alt="Logo" />
-          <p className={styles.logo}>MOVIE NEWS</p>
+          <img className={styles.logo} src="logoletter.png" alt="Letter logo" />
         </div>
 
         <Popover title="Liked movies" content={popoverContent} className={styles.popover} trigger="click">
