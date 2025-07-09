@@ -42,7 +42,7 @@ function Home() {
   };
 
   useEffect(() => {
-   fetch('https://my-moviz-backend-indol.vercel.app/')
+   fetch('https://my-moviz-backend-indol.vercel.app/movies')
      .then(response => response.json())
      .then(data => {
       const newData = data.movies.map(e => ({
