@@ -5,7 +5,7 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Next.js App</title>
+        <title>MY MOVIZ</title>
       </Head>
       <Component {...pageProps} />
     </>
